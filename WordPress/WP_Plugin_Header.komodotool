@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "WP Plugin Header", 
+  "value": [
+    "<?php", 
+    "/*", 
+    "Plugin Name: [[%ask:Plugin Name]]", 
+    "Plugin URI: http://www.ayerviernes.com", 
+    "Description: [[%ask:Description]] ", 
+    "Author: Felipe Lav&iacute;n Z.", 
+    "Version: [[%ask:Version]]", 
+    "Author URI: http://yukei.net", 
+    "*/", 
+    "?>!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

@@ -1,0 +1,12 @@
+{
+  "keyboard_shortcut": "Ctrl+Alt+Q", 
+  "name": "Debug Query", 
+  "value": [
+    "echo '<pre>'. $wpdb->last_query .'</pre>';", 
+    "echo '<pre>'. $wpdb->last_error .'</pre>';!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

@@ -1,0 +1,11 @@
+{
+  "keyboard_shortcut": "Alt+Shift+L", 
+  "name": "texto traducible", 
+  "value": [
+    " __('[[%ask1:texto]]', '[[%ask2:dominio]]') !@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

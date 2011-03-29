@@ -1,0 +1,20 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Generic Function", 
+  "value": [
+    "function [[%ask1:Nombre de la funci\u00f3n]]($args=''){", 
+    "\tglobal $wpdb, $post;", 
+    "\t$s = wp_parse_args($args, array(", 
+    "\t\t!@#_currentPos!@#_anchor'show' => 1,", 
+    "\t\t'foo' => 'bar'", 
+    "\t));", 
+    "\tif ( $s['show'] ) echo $out;", 
+    "\telse return $out;", 
+    "}"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true", 
+  "icon": "chrome://crystal/skin/icons/funct.png"
+}

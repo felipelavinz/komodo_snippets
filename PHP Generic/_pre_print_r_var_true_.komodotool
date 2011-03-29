@@ -1,0 +1,11 @@
+{
+  "keyboard_shortcut": "Ctrl+Alt+P", 
+  "name": "<pre>print_r($var, true)", 
+  "value": [
+    "echo '<pre>'. print_r([[%(s:orask:Variable a imprimir)]], true) .'</pre>';!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

@@ -1,0 +1,28 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Singleton Pattern", 
+  "value": [
+    "class [[%ask1:Nombre de funci\u00f3n de la clase]]{", 
+    "\tprivate static $instance;", 
+    "\tprivate function __construct(){", 
+    "\t\t!@#_currentPos!@#_anchor", 
+    "\t}", 
+    "\tpublic static function get_instance(){", 
+    "\t\tif ( !isset(self::$instance) ){", 
+    "\t\t\t$c = __CLASS__;", 
+    "\t\t\tself::$instance = new $c;", 
+    "\t\t}", 
+    "\t\treturn self::$instance;", 
+    "\t}", 
+    "\tpublic function __clone(){", 
+    "\t\ttrigger_error('Clone is not allowed.', E_USER_ERROR);", 
+    "\t}", 
+    "}", 
+    "// Instantiate the class object", 
+    "$[[%ask1]] = [[%ask1]]::get_instance();"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

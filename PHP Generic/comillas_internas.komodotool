@@ -1,0 +1,11 @@
+{
+  "keyboard_shortcut": "Alt+'", 
+  "name": "comillas internas", 
+  "value": [
+    "'. !@#_currentPos!@#_anchor[[%(w:else:)]] .'"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

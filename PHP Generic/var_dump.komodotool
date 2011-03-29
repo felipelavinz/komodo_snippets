@@ -1,0 +1,11 @@
+{
+  "keyboard_shortcut": "Ctrl+Alt+V", 
+  "name": "var_dump", 
+  "value": [
+    "echo  '<pre>', var_dump([[%(s:orask:Variable a imprimir)]]), '</pre>';!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "true", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}
